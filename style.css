@@ -210,6 +210,15 @@ main {
 
 }
 
+/* footer-section Style */
+.footer-section {
+    background-color: #FFF4E7;
+    padding: 30px;
+    margin: 80px;
+    text-align: center;
+    border-radius: 8px;
+}
+
 /* ====================== Responsive Style ======================= */
 /* Mobile Screen */
 @media screen and (max-width: 576px) {
@@ -249,6 +258,11 @@ main {
         margin-left: 0;
     }
 
+    .footer-section {
+        padding: 20px;
+        margin: 0;
+    }
+
 }
 
 /* Tablet Screen */
@@ -268,6 +282,10 @@ main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
 
+    .footer-section {
+        padding: 20px;
+        margin: 0;
     }
 }
