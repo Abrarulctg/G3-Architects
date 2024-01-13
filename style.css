@@ -14,6 +14,12 @@
     border: 0;
 }
 
+.text-light-gray {
+    color: #727272;
+}
+
+
+
 
 /* Header Styles */
 header {
@@ -63,9 +69,7 @@ nav li a {
     color: #131313;
 }
 
-.banner-description {
-    color: #727272;
-}
+
 
 .banner img {
     width: 100%;
@@ -75,7 +79,7 @@ nav li a {
 /* main Style */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 
@@ -120,9 +124,20 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        padding: 0 20px 0 20px;
+    }
+
+
 }
 
 /* Tablet Screen */
@@ -131,7 +146,8 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 }
